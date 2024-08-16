@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+    <nav class="menu navbar nav-light fixe-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="#">feluarmu</a>
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                   <li><a class="dropdown-item" href="#inicio">Inicio</a></li>
+                   <li><a class="dropdown-item" href="#acerca">Acerca de Mí</a></li>
+                  <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
+                  <li><a class="dropdown-item" href="#proyectos">Proyectos</a></li>
+                  <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+
+    <section class="inicio py-5" id="inicio">
+        <div class="container-lg">
+            <div class="row min-vh100 align-items-center align-content-center mt-5">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="inicio-imagen text-center">
+                        <img class="diseñador rounded-circle" src="./assets/img/Designer_laptop.jpeg" alt="diseñador web">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                   <div class="inicio-texto">
+                        <p class="text-muted mb-1 fw-bold">Felipe Aros Muñoz</p>
+                        <h1 class="text-danger text-uppercase fs-1 fw-bold" id="escrito"></h1>
+                        <p></p>
+                        <a href="#proyectos" class="btn btn-danger px-5 mt-3">Revisa mi Trabajo</a>
+                        
+                   </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="acerca py-5" id="acerca">
+        <div class="container-lg py-4" >
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="titulo text-center">
+                        <h2 class="fw-bold mb-5">Acerca de Mí</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="acerca-texto m-auto">
+                        <img class="laptop me-5 w-25" src="./assets/img/codigoXIV.jpg" alt="laptop">
+                        <p class="parrafo  text-muted ">Profesional que domina tanto el frontend como el backend de aplicaciones web utilizando tecnologías
+                            basadas en JavaScript. Su habilidad para trabajar en ambas capas permite crear aplicaciones completas y
+                            funcionales de manera eficiente.</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section class="habilidades py-5" id="habilidades">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="titulo text-center">
+                        <h2 class="fw-bold mb-5">Habilidades</h2>
+                    </div>
+                </div>
+            </div> 
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="habilidades-items shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-1 ">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">HTML5</h3>
+                        <p class="text-muted">Construir experiencias digitales modernas y accesibles, aprovechando al máximo las capacidades que ofrece este lenguaje.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="habilidades-items shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-1 ">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">CSS3</h3>
+                        <p class="text-muted">Implementación de animaciones, transiciones, y diseño adaptable, asegurando que las interfaces sean estéticamente agradables y funcionales.</p>
+                    </div>
+                </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="habilidades-items shadow-sm p-4 rounded bg-white">
+                            <div class="icon my-3 text-danger fs-1 ">
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">JavaScript</h3>
+                            <p class="text-muted">Sólido entendimiento de conceptos como asincronía, manipulación del DOM y APIs, dando interactividad y dinamismo a aplicaciones web.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+            
+        
+    <section class="proyectos py-5" id="proyectos">
+        <div class="container-lg py-4"></div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="titulo text-center">
+                        <h2 class="fw-bold mb-5">Proyectos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center display-flex-space-around">
+                <div class="col-md-6 col-lg-4">
+                    <div class="proyectos-muestra">
+                        <img src="./assets/img/Eport.jpg" class="w-75  img-thumbnail" alt="Eport">
+                        <h3 class="text-muted fs-5 my-2 ">Eport, información de vuelos</h3>
+                        <p class="mb-4"><a href="https://feluarmu2021.github.io/Eport-Informacion-De-Vuelos/" class="text-danger text-decoration-none" target="_blank">Visitar</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="proyectos-muestra">
+                        <img src="./assets/img/Tareas.jpg" class="w-75  img-thumbnail" alt="Listado de Tareas">
+                        <h3 class="text-muted fs-5 my-2 ">Listado de Tareas</h3>
+                        <p class="mb-4"><a href="https://feluarmu2021.github.io/Lista-De-Tareas-HTML-CSS/" class="text-danger text-decoration-none" target="_blank">Visitar</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="proyectos-muestra">
+                        <img src="./assets/img/Skyp.jpg" class="w-75  img-thumbnail" alt="Skyp">
+                        <h3 class="text-muted fs-5 my-2 ">Aerolíneas Skyp</h3>
+                        <p class="mb-4"><a href="https://feluarmu2021.github.io/Aerolineas-Skyp-HTML-CSS/" class="text-danger text-decoration-none" target="_blank">Visitar</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto py-5" id="contacto">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="tituloSeccion text-center">
+                        <h2 class="fw-bold mb-5">
+                            Contacto
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7 py-4 m-auto">
+                    <div class="formulario">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Nombre" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" placeholder="Correo Electrónico" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Asunto" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="6" placeholder="Mensaje" class="form-control form-control-lg fs-6 border-0 shadow-sm" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <button type="submit" class="btn btn-danger px-3">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="arriba">
+        <div class="boton">
+            <a href="#inicio"><i class="fa-regular fa-circle-up fa-xl text-danger"></i></a>
+        </div>
+    </div>
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row m-auto">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted"><i class="fa-regular fa-copyright text-danger"></i> feluarmu 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

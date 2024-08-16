@@ -1,0 +1,44 @@
+.menu{
+        position: fixed;
+        width: 100%;
+        top: 0;
+}
+
+
+.diseñador{
+    border-radius: 50%; 
+    width: 35%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.diseñador:hover{
+    width: 60%;
+}
+
+.laptop{
+    width: 35%;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+.acerca-texto{
+    display: flex;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.parrafo{
+    padding: 20px;
+    margin: auto;
+
+}
+
+.arriba{
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+.boton{
+   cursor: pointer;
+}
