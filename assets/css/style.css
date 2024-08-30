@@ -1,3 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("../img/codigoXIV.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* color: #D3D3D3; */
+}
+
 .menu{
         position: fixed;
         width: 100%;
@@ -15,16 +30,11 @@
     width: 60%;
 }
 
-.laptop{
-    width: 35%;
-    box-shadow: 5px 5px 5px grey;
-
-}
-
 .acerca-texto{
     display: flex;
     margin: 10px;
     padding-left: 10px;
+    font-size: large;
 }
 
 .parrafo{
